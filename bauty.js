@@ -20,7 +20,7 @@ console.log(array3)
 
 let  array4 = ['a', 'b', 'c', 'd', 'e'];
 
-// Copy to index 0 the element at index 3
+// Copy to index 0 the element at index 345
 console.log(array1.copyWithin(0, 3, 4));
 // Expected output: Array ["d", "b", "c", "d", "e"]
 
@@ -32,8 +32,8 @@ console.log(array1.copyWithin(1, 3));
 // fruta.push('banana','uva');
 // console.log(fruta);
 
-let frutas = ['manzana','naranja','uva','sandia'];
-let frutasSeleccionada = frutas.slice(1,4);
+let frutas = ['banana','naranja'];
+let frutasSeleccionada = frutas.slice(2);
 console.log(frutas);
 
 
@@ -64,7 +64,4 @@ for (let clave in persona){
 }
 
 
-                                    
-
-
-
+                            
